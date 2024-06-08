@@ -3,6 +3,10 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.header{
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+}
 .text-primary{
     color: tomato;
 }
@@ -55,6 +59,7 @@ nav a{
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -72,4 +77,9 @@ nav a{
 
 .baner-title{
 
+}
+.img{
+    position: right;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
