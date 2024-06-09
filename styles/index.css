@@ -186,3 +186,29 @@ main section {
 }
 
 /* section resume style */
+
+.resume-container {}
+
+.resume-colum {}
+
+.resume-column-title {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item {
+
+}
+
+.resume-item-title {
+
+}
+
+.resume-item-institute{
+
+}
+
+.resume-item-description{
+    
+}
