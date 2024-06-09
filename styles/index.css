@@ -187,9 +187,15 @@ main section {
 
 /* section resume style */
 
-.resume-container {}
+.resume-container {
+    display: flex;
+    gap: 20px;
+    box-shadow: 20px;
+}
 
-.resume-colum {}
+.resume-colum {
+
+}
 
 .resume-column-title {
     color: black;
@@ -205,10 +211,10 @@ main section {
 
 }
 
-.resume-item-institute{
+.resume-item-institute {
 
 }
 
-.resume-item-description{
+.resume-item-description {
     
 }
