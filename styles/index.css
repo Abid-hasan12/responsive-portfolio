@@ -142,3 +142,9 @@ font-size: larger;
     padding: 30px;
     margin: 30px auto;
 }
+
+.skills-container{
+    display: flex;
+    margin: 20px auto;
+    max-width: 1200px;
+}
