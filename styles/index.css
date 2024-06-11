@@ -189,32 +189,79 @@ main section {
 
 .resume-container {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     box-shadow: 20px;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 1140px;
+    border-radius: 8px;
+    
 }
 
-.resume-colum {
-
+.resume-column{
+    background-color: cornsilk;
+    padding: 20px;
 }
-
 .resume-column-title {
+    text-align: left;
     color: black;
     font-size: 30px;
     font-weight: 700;
 }
 
 .resume-item {
+    text-align: left;
 
 }
 
 .resume-item-title {
-
+    text-align: left;
 }
 
 .resume-item-institute {
-
+    text-align: left;
 }
 
 .resume-item-description {
-    
+    text-align: left;
+}
+
+/* footer related styles */
+
+footer{
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    gap: 50px;
+    background-color: bisque;
+    padding: 30px 200px 50px 580px;
+    margin:20px 50px 20px 50px;
+}
+
+.footer-column{
+    justify-content: center;
+}
+
+.footer-title{
+    font-size: larger;
+}
+
+.footer-description{
+    max-width:400px;
+
+}
+
+.footer-link{
+    display: block;
+
+}
+.footer-btn{
+    font-size: larger;
+    background-color: tomato;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
