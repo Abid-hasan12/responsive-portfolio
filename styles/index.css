@@ -19,7 +19,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
+    padding: 25px 35px;
 }
 
 /* nav related styles */
@@ -56,9 +56,12 @@ nav a {
 
 .header {
     background-color: bisque;
-    background-image: url('../header_bg.png');
+    background-image: url('../header_bg.png'),url('../developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+    padding-top: 100px;
+    padding-bottom:0px, 65px;
+    padding-left: 30px;
 }
 
 .banner {
@@ -234,10 +237,12 @@ footer{
 
 .footer-container{
     display: flex;
-    gap: 50px;
+    gap: 150px;
     background-color: bisque;
-    padding: 30px 200px 50px 580px;
-    margin:20px 50px 20px 50px;
+    width: 100%;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 60px;
 }
 
 .footer-column{
@@ -246,6 +251,8 @@ footer{
 
 .footer-title{
     font-size: larger;
+    text-decoration: underline;
+    color: tomato;
 }
 
 .footer-description{
@@ -255,8 +262,18 @@ footer{
 
 .footer-link{
     display: block;
+    margin-right: 25px;
 
 }
+    .footer-info input , textarea{
+        display: block;
+        margin-bottom: 20px;
+        padding: 18px 35px;
+        border-radius: 5px;
+        background: #FFF;
+        border: 0;
+        width: 80%;
+    }
 .footer-btn{
     font-size: larger;
     background-color: tomato;
